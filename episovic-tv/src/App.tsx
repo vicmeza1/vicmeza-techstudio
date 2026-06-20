@@ -3,7 +3,6 @@ import type { Series, SortOrder, SectionKey } from './types'
 import { loadSeries, saveSeries, loadAnthropicKey, saveAnthropicKey, fetchSeriesFromServer, saveSeriesServer } from './storage'
 import { loadConfig, saveConfig } from './config'
 import type { AppConfig } from './config'
-import { initialData } from './data'
 import { fetchShowData, fetchTitleEs } from './tvmaze'
 import { fillMissingDescriptions } from './claude'
 import { parseCommand } from './nlp'
@@ -904,7 +903,7 @@ export default function App() {
           anthropicKey={anthropicKey}
           onSave={a => { setAnthropicKey(a); saveAnthropicKey(a) }}
           onClose={() => setShowSettings(false)}
-          onResetData={() => { persist(initialData); showToast('Datos restaurados') }}
+          onResetData={() => { persist([]); showToast('Lista limpiada') }}
         />
       )}
 

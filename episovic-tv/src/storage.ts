@@ -1,5 +1,12 @@
 import type { Series, SeriesStatus } from './types'
-import { initialData } from './data'
+
+const DEMO_DATA: Series[] = [
+  { id: 'demo1', title: 'Breaking Bad',     status: 'pendiente', platform: 'Netflix',  currentSeason: null, currentEpisode: null, watchedWithPau: false, notes: '', lastWatched: null, updatedAt: '2026-01-01' },
+  { id: 'demo2', title: 'The Last of Us',   status: 'pendiente', platform: 'HBO',      currentSeason: null, currentEpisode: null, watchedWithPau: false, notes: '', lastWatched: null, updatedAt: '2026-01-01' },
+  { id: 'demo3', title: 'Stranger Things',  status: 'pendiente', platform: 'Netflix',  currentSeason: null, currentEpisode: null, watchedWithPau: false, notes: '', lastWatched: null, updatedAt: '2026-01-01' },
+  { id: 'demo4', title: 'Narcos',           status: 'pendiente', platform: 'Netflix',  currentSeason: null, currentEpisode: null, watchedWithPau: false, notes: '', lastWatched: null, updatedAt: '2026-01-01' },
+  { id: 'demo5', title: 'Squid Game',       status: 'pendiente', platform: 'Netflix',  currentSeason: null, currentEpisode: null, watchedWithPau: false, notes: '', lastWatched: null, updatedAt: '2026-01-01' },
+]
 
 const SERIES_KEY      = 'series_tracker_v1'
 const TMDB_KEY        = 'series_tracker_tmdb_key'
@@ -62,7 +69,7 @@ const EXCEL_IMPORT: Array<{
 export function loadSeries(): Series[] {
   try {
     const raw = localStorage.getItem(SERIES_KEY)
-    if (!raw) return initialData
+    if (!raw) return DEMO_DATA
     let series: Series[] = JSON.parse(raw)
     let changed = false
 
@@ -111,7 +118,7 @@ export function loadSeries(): Series[] {
     if (changed) localStorage.setItem(SERIES_KEY, JSON.stringify(series))
     return series
   } catch { /* ignore */ }
-  return initialData
+  return DEMO_DATA
 }
 
 export function saveSeries(series: Series[]): void {
