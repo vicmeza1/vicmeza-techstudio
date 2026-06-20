@@ -5,6 +5,22 @@ import { fetchShowData, fetchShowById } from '../tvmaze'
 
 const STAR_COLORS = ['#ef4444', '#f97316', '#fbbf24', '#a3e635', '#22c55e']
 
+const PLATFORM_BRAND: Record<string, { bg: string; fg: string; text: string; sub?: string }> = {
+  'Netflix':    { bg: '#141414', fg: '#E50914', text: 'NETFLIX' },
+  'Apple TV':   { bg: '#000000', fg: '#f5f5f7', text: 'Apple', sub: 'TV+' },
+  'HBO':        { bg: '#1a1a1a', fg: '#c0c0c0', text: 'HBO' },
+  'Prime':      { bg: '#0F1111', fg: '#00A8E0', text: 'prime', sub: 'video' },
+  'Paramount+': { bg: '#003dcc', fg: '#ffffff', text: 'P+', sub: 'Paramount' },
+  'Disney+':    { bg: '#0B0E31', fg: '#ffffff', text: 'DISNEY+' },
+  'Star+':      { bg: '#1a0030', fg: '#a855f7', text: 'Star+' },
+  'Hulu':       { bg: '#0d0d0d', fg: '#1CE783', text: 'hulu' },
+  'Peacock':    { bg: '#0d0d0d', fg: '#ffffff', text: 'PEACOCK' },
+  'FX':         { bg: '#111111', fg: '#ffffff', text: 'FX' },
+  'Mubi':       { bg: '#0d0d0d', fg: '#00C9B1', text: 'MUBI' },
+  'VIX':        { bg: '#1a0000', fg: '#FF3300', text: 'VIX' },
+  'Thunder':    { bg: '#0a0a1a', fg: '#c084fc', text: 'THUNDER' },
+}
+
 function pubRatingColor(r: number) {
   if (r >= 8) return '#22c55e'
   if (r >= 7) return '#a3e635'
@@ -204,9 +220,17 @@ export function SeriesRow({ series, allSeries, expanded, onToggle, onUpdate, onE
         >
           {series.posterPath ? (
             <img src={series.posterPath} alt="" className="w-full h-full object-cover" loading="lazy" draggable={false} style={{ cursor: 'zoom-in' }} />
-          ) : (
-            <div className="w-full h-full" style={{ background: 'linear-gradient(160deg,#1a1a3e,#0d0d1a)' }} />
-          )}
+          ) : (() => {
+            const brand = series.platform ? PLATFORM_BRAND[series.platform] : null
+            return brand ? (
+              <div className="w-full h-full flex flex-col items-center justify-center gap-0.5" style={{ background: brand.bg }}>
+                <span className="font-black tracking-widest leading-none" style={{ color: brand.fg, fontSize: 13 }}>{brand.text}</span>
+                {brand.sub && <span className="font-medium tracking-wider leading-none" style={{ color: brand.fg, fontSize: 9, opacity: 0.7 }}>{brand.sub}</span>}
+              </div>
+            ) : (
+              <div className="w-full h-full" style={{ background: 'linear-gradient(160deg,#1a1a3e,#0d0d1a)' }} />
+            )
+          })()}
         </div>
 
         {/* Title */}

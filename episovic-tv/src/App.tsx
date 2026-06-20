@@ -32,6 +32,48 @@ const SECTION_META: Record<SectionKey, { title: string; accent: string; btnColor
   abandonada:        { title: 'Abandonadas',        accent: 'text-rose-400',    btnColor: '#fb7185' },
 }
 
+const PLATFORM_LOGO: Record<string, { bg: string; fg: string; text: string; fw?: number; ls?: string; ff?: string }> = {
+  'Netflix':    { bg: '#E50914', fg: '#fff',    text: 'NETFLIX',   fw: 900, ls: '0.04em' },
+  'Apple TV':   { bg: '#1c1c1e', fg: '#f5f5f7', text: 'Apple TV+', fw: 500, ff: '-apple-system, BlinkMacSystemFont, sans-serif' },
+  'HBO':        { bg: '#1a1a1a', fg: '#c8c8c8', text: 'HBO',       fw: 700, ls: '0.08em' },
+  'Prime':      { bg: '#0F1111', fg: '#00A8E0', text: 'prime',     fw: 400 },
+  'Disney+':    { bg: '#0B0E31', fg: '#fff',    text: 'DISNEY+',   fw: 800, ls: '0.03em' },
+  'Paramount+': { bg: '#003dcc', fg: '#fff',    text: 'P+',        fw: 700 },
+  'Hulu':       { bg: '#0d0d0d', fg: '#1CE783', text: 'hulu',      fw: 600 },
+  'Star+':      { bg: '#1a0030', fg: '#bf73f0', text: 'Star+',     fw: 700 },
+  'Peacock':    { bg: '#0d0d0d', fg: '#d0d0d0', text: 'PEACOCK',   fw: 600, ls: '0.04em' },
+  'FX':         { bg: '#111',    fg: '#fff',    text: 'FX',        fw: 800, ls: '0.12em' },
+  'Mubi':       { bg: '#0d0d0d', fg: '#00C9B1', text: 'MUBI',      fw: 700, ls: '0.06em' },
+  'VIX':        { bg: '#0a0a0a', fg: '#FF3300', text: 'VIX',       fw: 800, ls: '0.04em' },
+}
+
+function PlatformLogo({ name }: { name: string }) {
+  const s = PLATFORM_LOGO[name]
+  if (!s) return null
+  return (
+    <span
+      title={name}
+      style={{
+        background: s.bg,
+        color: s.fg,
+        fontSize: 8,
+        fontWeight: s.fw ?? 700,
+        letterSpacing: s.ls ?? '0.01em',
+        fontFamily: s.ff ?? 'inherit',
+        padding: '2px 4px',
+        borderRadius: 3,
+        lineHeight: 1.4,
+        flexShrink: 0,
+        border: '1px solid rgba(255,255,255,0.07)',
+        display: 'inline-flex',
+        alignItems: 'center',
+      }}
+    >
+      {s.text}
+    </span>
+  )
+}
+
 const SORT_OPTIONS: { value: SortOrder; label: string }[] = [
   { value: 'recent',     label: 'Más reciente' },
   { value: 'oldest',     label: 'Más antigua' },
@@ -623,6 +665,12 @@ export default function App() {
     newSeason: series.filter(s => s.nextAirDate).length,
   }), [series])
 
+  const activePlatforms = useMemo(() => {
+    const seen = new Set<string>()
+    series.forEach(s => { if (s.platform) seen.add(s.platform) })
+    return [...seen].sort()
+  }, [series])
+
   const commonSectionProps = { allSeries: series, expandedId, onToggle: handleToggle, onUpdate: upsert, onEditFull: setEditSeries, onDelete: deleteSeries }
 
   return (
@@ -643,7 +691,14 @@ export default function App() {
                 <rect width="24" height="24" rx="5.5" fill="#07071a"/>
                 <polygon points="8.5,6.5 8.5,17.5 18,12" fill="url(#lmg)"/>
               </svg>
-              <h1 className="font-bold text-xl tracking-tight" style={{ background: 'linear-gradient(135deg, #c084fc 0%, #818cf8 50%, #22d3ee 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>Episovic TV</h1>
+              <h1 className="font-bold text-xl tracking-tight whitespace-nowrap" style={{ background: 'linear-gradient(135deg, #c084fc 0%, #818cf8 50%, #22d3ee 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>Episovic TV</h1>
+              {activePlatforms.length > 0 && (
+                <div className="flex items-center gap-1 ml-1">
+                  {activePlatforms.filter(p => PLATFORM_LOGO[p]).map(p => (
+                    <PlatformLogo key={p} name={p} />
+                  ))}
+                </div>
+              )}
             </div>
             <div className="flex items-center gap-2 text-xs">
               {config.watchingLimit ? (
