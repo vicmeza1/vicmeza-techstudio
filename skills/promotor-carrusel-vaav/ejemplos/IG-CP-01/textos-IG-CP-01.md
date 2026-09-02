@@ -71,5 +71,9 @@ Contenido educativo. VAAV SC no intermedia ni vende seguros; cualquier contratac
 
 ---
 
+## Publicación
+- Programada en GHL para Instagram vaavasesores el 2026-09-02 a las 00:15 CDMX (post 6a97ba2a0d81122bc39ce613). Un post duplicado para las 20:30 CDMX (6a97b92761812c46cebd20c7) quedó para borrar a mano en el planificador.
+- Imágenes en `vicmeza1/vicmeza-techstudio` → `instagram-vaav/2026-patrimonio/IG-CP-01/`.
+
 ## Cerrado
 Todos los puntos abiertos de la versión anterior quedaron resueltos con la auditoría del 2026-09-02. La página 2 del lienzo ("Desde cero · tres direcciones") conserva bocetos con el vocabulario anterior; no son material publicable.

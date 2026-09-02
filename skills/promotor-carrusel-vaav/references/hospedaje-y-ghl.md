@@ -6,7 +6,7 @@ El planificador de GHL manda a Instagram la URL de cada imagen; Instagram la des
 ## Repo de assets
 - Repo: `vicmeza1/vicmeza-techstudio`, rama `main`.
 - Ruta: `instagram-vaav/<año>-<serie>/<CODIGO>/<CODIGO>-0N.jpg` (ejemplo: `instagram-vaav/2026-patrimonio/IG-CP-01/IG-CP-01-01.jpg`). La serie de reclutamiento vive en `instagram-vaav/2026-reclutamiento/IG-00N/`.
-- Junto a las imágenes va `<CODIGO>-textos.md` (textos auditados y caption), para que la pieza sea auditable después.
+- Junto a las imágenes va `<CODIGO>-textos.md` (textos auditados y caption), para que la pieza sea auditable después. Los fondos Higgsfield de referencia van en `<CODIGO>/fondos/`.
 - URL pública: `https://raw.githubusercontent.com/vicmeza1/vicmeza-techstudio/main/<ruta>`.
 - Verificar antes de programar: `curl -sS -o /dev/null -w "%{http_code} %{content_type}\n" <url>` debe dar `200 image/jpeg` en las N imágenes.
 - Desde Cowork sin git: el MCP de GitHub (`push_files`) solo acepta texto; para binarios usar `git` en la Mac o pedir a Claude Code que lo suba.
