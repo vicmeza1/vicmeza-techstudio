@@ -1,0 +1,38 @@
+{
+  "codigo": "IG-CP-01",
+  "serie": "2026-patrimonio",
+  "eyebrow": "VAAV · Certeza permanente",
+  "auditado": "2026-09-02 · Cowork",
+  "cuenta_ghl": "instagram vaavasesores",
+  "laminas": [
+    {"tipo": "portada", "fondo": "fondos/bg1.jpg", "kicker": "Seguro de vida", "palabra": "con certeza\npermanente",
+     "bajada": "De los pocos que siguen en pie cuando ya no hay tiempo para contratar otro.", "pie": "Siete láminas. Criterio VAAV."},
+    {"tipo": "lista", "fondo": "fondos/bg2.jpg", "titular": "El riesgo tiene\ntres caras.",
+     "items": [
+       {"titulo": "Morir demasiado pronto.", "texto": "Los tuyos se quedan con el gasto de siempre y sin el ingreso que lo pagaba."},
+       {"titulo": "Vivir demasiado.", "texto": "El dinero se termina antes que la vida. Pocos lo planean, muchos lo sufren."},
+       {"titulo": "Incapacitarse en el camino.", "texto": "El ingreso se detiene y los gastos siguen. Para esto existe otra cobertura, la de invalidez."}],
+     "pie": "Este carrusel es sobre la primera. La segunda se resuelve ahorrando para el retiro; la tercera, con cobertura de invalidez."},
+    {"tipo": "comparativa", "fondo": "fondos/bg4.jpg", "titular": "Por un plazo,\no para toda la vida.",
+     "bajada": "Un temporal cubre una etapa. La certeza permanente cubre la vida. Cuál te toca se decide en diagnóstico.",
+     "columnas": [
+       {"titulo": "Temporal", "items": ["Cubre 10, 15 o 20 años.", "Al vencer, la protección termina.", "Renovar se calcula con la edad nueva.", "No acumula valor."]},
+       {"titulo": "Certeza permanente", "items": ["Cubre toda la vida.", "No vence ni se renueva.", "Misma aportación desde el día uno.", "Acumula un valor que queda escrito en el contrato."]}],
+     "pie": "Ninguno es malo. Uno resuelve una etapa. El otro, un legado."},
+    {"tipo": "grafica", "fondo": "fondos/bg5.jpg", "titular": "La aportación se fija\ncon la edad de hoy.",
+     "etiqueta_roja": "CERTEZA PERMANENTE · LA MISMA APORTACIÓN TODA LA VIDA", "etiqueta_gris": "TEMPORALES RENOVADOS · SE RECALCULA CON CADA EDAD",
+     "cuerpo": "Se calcula una vez, con la edad que tienes hoy, y se mantiene. Con aportaciones limitadas, aportas un periodo definido y la protección sigue toda la vida.",
+     "pie": "Cada año que pasa, ese cálculo se hace con una edad mayor. El tiempo no juega a tu favor aquí."},
+    {"tipo": "texto", "fondo": "fondos/bg6.jpg", "pos": "top", "titular": "Tu mayor activo\nno está en el balance.",
+     "parrafos": ["No es la casa. No es la cartera. No es lo que ya tienes. Es tu capacidad de generar ingreso durante los próximos veinte o treinta años.",
+                  "Casi nadie la tiene protegida, porque no aparece en ningún estado financiero. Es el valor económico de una vida."],
+     "cierre": "La certeza permanente convierte esa capacidad futura en un activo que existe desde hoy."},
+    {"tipo": "capas", "fondo": "fondos/bg9.jpg", "titular": "Proteger. Ahorrar. Invertir.\nEn ese orden.",
+     "cuerpo": "El modelo patrimonial VAAV se levanta en tres capas. La certeza permanente ocupa las dos primeras: protege a la familia y, al mismo tiempo, acumula valor.",
+     "capas": [{"nombre": "Invertir", "sub": "tercera capa", "cubierta": false}, {"nombre": "Ahorrar", "sub": "segunda capa", "cubierta": true}, {"nombre": "Proteger", "sub": "la base", "cubierta": true}],
+     "llave": "Certeza permanente", "pie": "Sobre esa base se invierte. Nunca al revés."},
+    {"tipo": "cierre", "fondo": "fondos/bg10.jpg", "titular": "Dejar lo que tienes es herencia. Dejar lo que ibas a tener es legado.",
+     "cuerpo": "La certeza permanente deja disponible, conforme al contrato, el patrimonio que ibas a construir en treinta años. Eso es lo que se firma.",
+     "llamado": "Guarda este carrusel. Compártelo con quien todavía cree que su sueldo es su patrimonio."}
+  ]
+}
