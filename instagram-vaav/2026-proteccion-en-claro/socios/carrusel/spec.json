@@ -1,0 +1,75 @@
+{
+"sistema": "v3",
+"codigo": "IG-CP-11",
+"eyebrow": "Si tienes socios",
+"laminas": [
+{
+"tipo": "portada",
+"fondo": "fondos/socios-portada.jpg",
+"titulo": "Si tienes socios,\n¿qué pasa con la parte\nde uno *si falta*?",
+"bajada": "La pregunta que casi nadie hace a tiempo.",
+"foco": "center 60%",
+"tam": 92
+},
+{
+"tipo": "banda",
+"fondo": "fondos/socios-banda.jpg",
+"titular": "La respuesta de hecho\nsuele ser incómoda",
+"cuerpo": [
+"Su familia hereda su participación.",
+"De un día para otro tienes un socio que no elegiste, que necesita liquidez y no conoce el negocio."
+],
+"alto_imagen": 540
+},
+{
+"tipo": "pregunta",
+"n": 1,
+"de": 3,
+"rotulo": "Al revés",
+"icono": "personas",
+"composicion": "arriba",
+"titular": "O tú faltas y tu familia\n*depende de tus socios*",
+"cuerpo": "De que puedan y quieran comprarle su parte, al precio justo y en el momento en que lo necesite."
+},
+{
+"tipo": "pregunta",
+"n": 2,
+"de": 3,
+"rotulo": "Pieza 1 de 2",
+"icono": "documento",
+"composicion": "abajo",
+"titular": "Un acuerdo que diga\n*qué pasa y a qué precio*",
+"cuerpo": "Entre socios, por escrito, antes de que haga falta. Es la parte que los abogados sí suelen armar."
+},
+{
+"tipo": "pregunta",
+"n": 3,
+"de": 3,
+"rotulo": "Pieza 2 de 2",
+"icono": "llave",
+"composicion": "arriba",
+"titular": "La liquidez para\n*cumplirlo ese día*",
+"cuerpo": "El acuerdo sin el dinero es una buena intención. Esta es la pieza que suele faltar."
+},
+{
+"tipo": "guardalo",
+"titular": "Guárdalo",
+"bajada": "Si tienes socios y no han tenido esa conversación, es la primera que vale la pena tener.",
+"items": [
+[
+"personas",
+"Qué pasa con la parte de uno"
+],
+[
+"documento",
+"Acuerdo entre socios"
+],
+[
+"llave",
+"Liquidez para cumplirlo"
+]
+],
+"puente": "Se revisa en una sesión y se ordena con dos piezas."
+}
+]
+}

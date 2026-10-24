@@ -1,0 +1,87 @@
+{
+"sistema": "v3",
+"codigo": "IG-RC-10",
+"eyebrow": "Complemento, no cambio de casa",
+"laminas": [
+{
+"tipo": "portada",
+"fondo": "fondos/complemento-portada.jpg",
+"titulo": "Sumar a VAAV\nno te pide dejar\n*lo que ya operas*",
+"bajada": "La primera pregunta de todo asesor con cédula, contestada.",
+"foco": "center 60%"
+},
+{
+"tipo": "banda",
+"fondo": "fondos/complemento-banda.jpg",
+"titular": "Tu clave se queda.\nTus clientes también",
+"cuerpo": [
+"Y tu forma de trabajar, igual.",
+"Lo que cambia es lo que puedes presentar."
+],
+"alto_imagen": 540
+},
+{
+"tipo": "pregunta",
+"n": 1,
+"de": 3,
+"rotulo": "Lo que se suma · 1 de 3",
+"icono": "maletin",
+"composicion": "arriba",
+"titular": "Estrategias para\n*sumas grandes*",
+"cuerpo": "Casos de prima alta que hoy se te van porque la estructura no tiene con qué atenderlos."
+},
+{
+"tipo": "pregunta",
+"n": 2,
+"de": 3,
+"rotulo": "Lo que se suma · 2 de 3",
+"icono": "globo",
+"composicion": "abajo",
+"titular": "Inversión fuera de México\nen *moneda original*",
+"cuerpo": "Para el cliente que ya te pregunta por rendimiento y no quieres perder."
+},
+{
+"tipo": "pregunta",
+"n": 3,
+"de": 3,
+"rotulo": "Lo que se suma · 3 de 3",
+"icono": "documento",
+"composicion": "arriba",
+"titular": "La reunión preparada\ncon el *diagnóstico hecho*",
+"cuerpo": "Cuatro preguntas, el caso capturado y el diagnóstico en PDF antes de sentarte."
+},
+{
+"tipo": "papel",
+"fondo": "fondos/complemento-papel.jpg",
+"titular": "Una regla que va\nen los dos sentidos",
+"cuerpo": "Tú decides y nosotros también decidimos.",
+"items": [
+"Buscamos identidad profesional, no volumen",
+"La segunda reunión es un diagnóstico, no una presentación",
+"Si encaja, se ve rápido"
+],
+"alto_imagen": 440
+},
+{
+"tipo": "guardalo",
+"titular": "Guárdalo",
+"bajada": "Complemento, no cambio de casa.",
+"items": [
+[
+"maletin",
+"Sumas grandes"
+],
+[
+"globo",
+"Moneda original"
+],
+[
+"documento",
+"Diagnóstico hecho"
+]
+],
+"puente": "¿Qué parte de tu portafolio complementarías primero?",
+"legal": "VAAV es una escuela aplicada de arquitectura patrimonial. VAAV SC no intermedia ni vende seguros; la intermediación es del asesor con cédula, a título individual."
+}
+]
+}

@@ -1,0 +1,88 @@
+{
+"sistema": "v3",
+"codigo": "IG-RC-11",
+"eyebrow": "Lo que tu cliente necesita",
+"laminas": [
+{
+"tipo": "portada",
+"fondo": "fondos/recomendar-portada.jpg",
+"titulo": "Recomendar lo que\ntu cliente necesita,\n*no lo que te toca vender*",
+"bajada": "Lo que dijeron los asesores con los que nos sentamos en octubre.",
+"foco": "center 60%",
+"tam": 92
+},
+{
+"tipo": "banda",
+"fondo": "fondos/recomendar-banda.jpg",
+"titular": "La mitad dijo lo mismo\ncon distintas palabras",
+"cuerpo": [
+"Quieren un portafolio completo sin amarrarse a una marca.",
+"Y quieren que los vean como asesores, no como vendedores."
+],
+"alto_imagen": 540
+},
+{
+"tipo": "pregunta",
+"n": 1,
+"de": 3,
+"rotulo": "La frase",
+"icono": "personas",
+"composicion": "arriba",
+"titular": "_Si yo no estoy convencido\nde un producto, no lo vendo_",
+"cuerpo": "Lo dijo un asesor con años de carrera. Esa frase es el filtro con el que trabajamos."
+},
+{
+"tipo": "pregunta",
+"n": 2,
+"de": 3,
+"rotulo": "El orden",
+"icono": "grafica",
+"composicion": "abajo",
+"titular": "Primero la estrategia:\n*proteger, ahorrar, invertir*",
+"cuerpo": "El producto entra después, y solo si cabe en el caso. Nunca al revés."
+},
+{
+"tipo": "papel",
+"fondo": "fondos/recomendar-papel.jpg",
+"titular": "Lo que no hay\nen VAAV",
+"cuerpo": "Para que el asesor recomiende con criterio, hay cosas que no existen aquí.",
+"items": [
+"Exclusividad con una compañía",
+"Cuota por marca",
+"Producto que se coloque porque toca"
+],
+"alto_imagen": 440
+},
+{
+"tipo": "pregunta",
+"n": 3,
+"de": 3,
+"rotulo": "Lo que sí hay",
+"icono": "llave",
+"composicion": "arriba",
+"titular": "Lo que la gente\n*ya está buscando*",
+"cuerpo": "No hay que inventar nada. Hay que dar lo que la persona necesita, hacer lo que se tiene que hacer y hacerlo bien."
+},
+{
+"tipo": "guardalo",
+"titular": "Guárdalo",
+"bajada": "Para la próxima vez que te pidan colocar algo que no cabe.",
+"items": [
+[
+"personas",
+"Convencido o no se vende"
+],
+[
+"grafica",
+"Estrategia antes que producto"
+],
+[
+"llave",
+"Sin exclusividad ni cuota"
+]
+],
+"puente": "¿Cuándo fue la última vez que recomendaste algo que no te tocaba colocar?",
+"legal": "VAAV es una escuela aplicada de arquitectura patrimonial. VAAV SC no intermedia ni vende seguros; la intermediación es del asesor con cédula, a título individual."
+}
+]
+}

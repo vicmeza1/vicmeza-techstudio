@@ -1,0 +1,85 @@
+{
+"sistema": "v3",
+"codigo": "IG-CP-10",
+"eyebrow": "Lo que la IA no sabe de ti",
+"laminas": [
+{
+"tipo": "portada",
+"fondo": "fondos/ia-portada.jpg",
+"titulo": "Lo que la IA\ntodavía *no sabe de ti*",
+"bajada": "Ya le preguntaste qué protección te conviene. Falta lo que no le dijiste.",
+"foco": "center 60%"
+},
+{
+"tipo": "banda",
+"fondo": "fondos/ia-banda.jpg",
+"titular": "Investigar con IA\nestá bien",
+"cuerpo": [
+"Yo también la uso para preparar.",
+"El problema no es la respuesta. Es para quién es la respuesta."
+],
+"alto_imagen": 540
+},
+{
+"tipo": "pregunta",
+"n": 1,
+"de": 3,
+"rotulo": "Lo que no tiene · 1 de 3",
+"icono": "personas",
+"composicion": "arriba",
+"titular": "Tu *historial de salud*",
+"cuerpo": "La aceptación de cualquier protección depende de él. Sin ese dato, la recomendación es para alguien parecido a ti."
+},
+{
+"tipo": "pregunta",
+"n": 2,
+"de": 3,
+"rotulo": "Lo que no tiene · 2 de 3",
+"icono": "maletin",
+"composicion": "abajo",
+"titular": "Cómo está armada\n*tu empresa*",
+"cuerpo": "Socios, deuda, quién firma, qué pasa si tú faltas. Eso cambia por completo qué conviene y en qué orden."
+},
+{
+"tipo": "pregunta",
+"n": 3,
+"de": 3,
+"rotulo": "Lo que no tiene · 3 de 3",
+"icono": "documento",
+"composicion": "arriba",
+"titular": "Las conversaciones\n*pendientes en tu casa*",
+"cuerpo": "Quién depende de tu ingreso y qué no se ha hablado. Ninguna IA lo sabe, y es lo que decide."
+},
+{
+"tipo": "papel",
+"fondo": "fondos/ia-papel.jpg",
+"titular": "El dato que\nsí ayuda",
+"cuerpo": "Capgemini y LIMRA, 2026: la mitad de los consumidores planea investigar con IA generativa y dos de cada tres quieren una persona al momento de decidir.",
+"items": [
+"Investigar: primer paso",
+"Decidir: con alguien que te conozca"
+],
+"alto_imagen": 440
+},
+{
+"tipo": "guardalo",
+"titular": "Guárdalo",
+"bajada": "Lleva la respuesta de la IA a tu próxima reunión. Y lleva también lo que no le dijiste.",
+"items": [
+[
+"personas",
+"Tu salud"
+],
+[
+"maletin",
+"Tu empresa"
+],
+[
+"documento",
+"Tu casa"
+]
+],
+"puente": "Investigar es el primer paso. Decidir pide a alguien que te conozca."
+}
+]
+}

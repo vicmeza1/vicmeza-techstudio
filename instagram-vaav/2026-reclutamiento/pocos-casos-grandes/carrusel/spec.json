@@ -1,0 +1,76 @@
+{
+"sistema": "v3",
+"codigo": "IG-RC-12",
+"eyebrow": "Pocos casos, pero grandes",
+"laminas": [
+{
+"tipo": "portada",
+"fondo": "fondos/pocos-portada.jpg",
+"titulo": "Si cierras pocos casos,\npero grandes, tu esquema\n*debería medir eso*",
+"bajada": "Para el asesor que atiende empresarios y lo miden por número de pólizas.",
+"foco": "center 60%",
+"tam": 88
+},
+{
+"tipo": "banda",
+"fondo": "fondos/pocos-banda.jpg",
+"titular": "Cuatro o cinco casos\nal año",
+"cuerpo": [
+"De prima alta, trabajados durante meses.",
+"Y una estructura que los cuenta igual que una póliza chica, con cuota mínima incluida."
+],
+"alto_imagen": 540
+},
+{
+"tipo": "pregunta",
+"n": 1,
+"de": 3,
+"rotulo": "La regla equivocada",
+"icono": "grafica",
+"composicion": "arriba",
+"titular": "Medir por pólizas\na quien *produce prima*",
+"cuerpo": "Es usar la regla equivocada. Quien cierra casos grandes trabaja distinto: prepara más, visita menos."
+},
+{
+"tipo": "pregunta",
+"n": 2,
+"de": 3,
+"rotulo": "La regla VAAV",
+"icono": "maletin",
+"composicion": "abajo",
+"titular": "Lo que cuenta es la prima\ny la *calidad del caso*",
+"cuerpo": "No cuántas firmas juntas al mes. Así se mide y así se reconoce."
+},
+{
+"tipo": "pregunta",
+"n": 3,
+"de": 3,
+"rotulo": "Lo que hace falta",
+"icono": "llave",
+"composicion": "arriba",
+"titular": "Productos que\n*aguanten esas sumas*",
+"cuerpo": "Estrategias pensadas para patrimonios grandes, que hacen más eficiente la propuesta con la misma prima."
+},
+{
+"tipo": "guardalo",
+"titular": "Guárdalo",
+"bajada": "Para tu próxima conversación sobre cómo te miden.",
+"items": [
+[
+"grafica",
+"Prima, no pólizas"
+],
+[
+"maletin",
+"Calidad del caso"
+],
+[
+"llave",
+"Productos para sumas grandes"
+]
+],
+"puente": "¿A ti te miden por pólizas o por prima?",
+"legal": "VAAV es una escuela aplicada de arquitectura patrimonial. VAAV SC no intermedia ni vende seguros; la intermediación es del asesor con cédula, a título individual."
+}
+]
+}

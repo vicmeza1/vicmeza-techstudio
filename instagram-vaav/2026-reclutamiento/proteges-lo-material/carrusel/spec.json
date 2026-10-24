@@ -1,0 +1,76 @@
+{
+"sistema": "v3",
+"codigo": "IG-RC-13",
+"eyebrow": "Si ya proteges lo material",
+"laminas": [
+{
+"tipo": "portada",
+"fondo": "fondos/material-portada.jpg",
+"titulo": "Si ya proteges\nlo material, ¿por qué\n*no a quien lo genera*?",
+"bajada": "Para quien vende seguros de autos, daños o sistemas de seguridad.",
+"foco": "center 60%",
+"tam": 88
+},
+{
+"tipo": "banda",
+"fondo": "fondos/material-banda.jpg",
+"titular": "Lo dijo un candidato\nque vende seguridad",
+"cuerpo": [
+"Cuidamos un patrimonio, cuidamos lo material.",
+"Bueno, ¿por qué no cuidar lo personal?"
+],
+"alto_imagen": 540
+},
+{
+"tipo": "pregunta",
+"n": 1,
+"de": 3,
+"rotulo": "Lo que ya aseguras",
+"icono": "maletin",
+"composicion": "arriba",
+"titular": "La bodega, la flotilla,\n*la maquinaria*",
+"cuerpo": "Ya sabes explicar un riesgo, cotizar y dar servicio. Ese oficio no se improvisa."
+},
+{
+"tipo": "pregunta",
+"n": 2,
+"de": 3,
+"rotulo": "Lo que queda fuera",
+"icono": "personas",
+"composicion": "abajo",
+"titular": "La persona que\n*las puso a trabajar*",
+"cuerpo": "El dueño, el socio, el directivo. Casi nadie le habla de protegerse a él, y es quien sostiene todo lo demás."
+},
+{
+"tipo": "pregunta",
+"n": 3,
+"de": 3,
+"rotulo": "Cómo se traslada",
+"icono": "documento",
+"composicion": "arriba",
+"titular": "Método y cédula,\n*acompañado*",
+"cuerpo": "Lo que sabes de protección se traslada a personas. Lo que falta se construye con acompañamiento, sin empezar desde cero."
+},
+{
+"tipo": "guardalo",
+"titular": "Guárdalo",
+"bajada": "Si vienes de otro ramo y quieres un trabajo con más fondo.",
+"items": [
+[
+"maletin",
+"Ya sabes el oficio"
+],
+[
+"personas",
+"Falta quien lo genera"
+],
+[
+"documento",
+"Método y cédula"
+]
+],
+"puente": "Por aquí se empieza.",
+"legal": "VAAV es una escuela aplicada de arquitectura patrimonial. VAAV SC no intermedia ni vende seguros; la intermediación es del asesor con cédula, a título individual."
+}
+]
+}
