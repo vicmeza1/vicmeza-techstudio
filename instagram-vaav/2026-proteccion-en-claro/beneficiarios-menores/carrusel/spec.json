@@ -1,0 +1,10 @@
+{"sistema":"v3","codigo":"IG-CP-09","eyebrow":"Beneficiarios menores",
+"laminas":[
+{"tipo":"portada","fondo":"fondos/benef-portada.jpg","titulo":"Si tus beneficiarios\nson menores, el dinero\n*no les llega* como crees","bajada":"Quién recibe y quién administra: dos preguntas, no una.","foco":"center 60%","tam":92},
+{"tipo":"banda","fondo":"fondos/benef-banda.jpg","titular":"Un menor no puede\ncobrar directamente","cuerpo":["Alguien administra por él hasta la mayoría de edad.","Si no definiste quién ni cómo, lo decide un trámite y no tú."],"alto_imagen":540},
+{"tipo":"pregunta","n":1,"de":3,"icono":"personas","composicion":"arriba","titular":"¿Quién *recibe*?","cuerpo":"Es la pregunta que todos contestan al firmar. Nombre y porcentaje. Hasta ahí llega la mayoría."},
+{"tipo":"pregunta","n":2,"de":3,"icono":"reloj_arena","composicion":"abajo","titular":"¿Quién *administra*\nmientras crecen?","cuerpo":"Es la pregunta que casi nadie contesta. Y es la que decide si el dinero llega a tiempo y a lo que tú querías."},
+{"tipo":"pregunta","n":3,"de":3,"icono":"documento","composicion":"arriba","titular":"¿Con qué\n*instrucciones*?","cuerpo":"Educación, casa, gasto de cada mes. Lo que no esté escrito queda al criterio de quien administre."},
+{"tipo":"papel","fondo":"fondos/benef-papel.jpg","titular":"Tres decisiones\nque sí son tuyas","cuerpo":"Se revisan en una sola sesión con tu asesor. Cambiar al beneficiario es un trámite sencillo.","items":["Quién recibe","Quién administra","Para qué"],"alto_imagen":440},
+{"tipo":"guardalo","titular":"Guárdalo","bajada":"Revisa hoy a quién pusiste y con qué instrucciones.","items":[["personas","Quién recibe"],["reloj_arena","Quién administra"],["documento","Para qué"]],"puente":"Es de las decisiones que más pesan y menos tiempo toma."}
+]}
